@@ -1,11 +1,10 @@
 # hydrogen-vs-conventional-energy
-Status: in progress (Nov 2026)
+Status: in progress (Nov 2026)  
 How efficient is hydrogen energy compared with conventional energy? This project traces useful energy out per unit of energy in, stage by stage, for three use cases:
-Use case	Options compared
-Home heating	Hydrogen boiler, gas boiler, heat pump
-Data centres	Grid power, on-site hydrogen fuel cells, on-site gas turbines (with a weather-driven PUE model)
-Ammonia	Hydrogen from electrolysis vs from natural gas (SMR)
-Two measures: chain efficiency (first stage to useful output) and primary-energy efficiency on the real grid, using a year of hourly EIA-930 data for four US regions and UK data from the NESO Carbon Intensity API.
+Home heating: Hydrogen boiler, gas boiler, heat pump
+Data centres: Grid power, on-site hydrogen fuel cells, on-site gas turbines (with a weather-driven PUE model)
+Making ammonia:	Hydrogen from electrolysis vs from natural gas (SMR)
+Two measures are used: **chain efficiency** (first stage to useful output) and **primary-energy efficiency** on the real grid, using a year of hourly EIA-930 data for four US regions and UK data from the NESO Carbon Intensity API.
 Setup
 ```bash
 pip install -r requirements.txt
